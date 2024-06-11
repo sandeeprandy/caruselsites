@@ -1,0 +1,115 @@
+.slideOne {
+  height: 100vh;
+
+  text-align: center;
+  background-color: rgb(107, 169, 226);
+  padding: 5px;
+}
+.mainpic {
+  background-image: url("https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+  background-size: cover;
+  height: 100%;
+}
+.HomePage {
+  color: white;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/736x/1a/5d/8c/1a5d8c05200b6f1d9a56d8133b09923f.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+  padding: 20px;
+
+  font-size: large;
+}
+.Home {
+  text-align: center;
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutPage {
+  color: white;
+  height: 90vh;
+  width: 100vh;
+
+  background-image: linear-gradient(
+      rgba(71, 2, 68, 0.5),
+      rgba(10, 111, 121, 0.5)
+    ),
+    url("https://t3.ftcdn.net/jpg/03/82/41/88/360_F_382418833_Lm8j3C0tv5l7fIg1BVPq0cUg5VgqhwDt.jpg");
+  background-size:100% 100%;
+  text-align: center;
+  padding: 20px;
+  color: rgb(220, 227, 238);
+
+  font-size: large;
+}
+.aboutpages{
+    display: flex;
+    text-align: start;
+    width: 500px;
+    margin-top: 10px;
+}
+.Contact{
+    color: white;
+    height: 100vh;
+    width: 80%;
+  
+    background-image: linear-gradient(
+        rgba(71, 2, 68, 0.5),
+        rgba(10, 111, 121, 0.5)
+      ),
+      url("https://st4.depositphotos.com/1013599/23961/i/450/depositphotos_239613442-stock-photo-city-at-night-town-in.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 0px;
+    color: rgb(220, 227, 238);
+  
+    font-size: large;
+} 
+.button {
+    background-color: aquamarine;
+    border-radius: 30px;
+    width: 140px;
+    height: 50px;
+    color: rgb(212, 6, 240);
+
+
+}
+
+.pricePage{
+  color: white;
+  height: 90%;
+  width: 100%;
+  background: linear-gradient(rgba(57, 110, 207, 0.5), rgba(51, 74, 209, 0.5)), url(imegs/priceka.png);
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+
+  font-size: large;
+
+}
+.price{
+  display: flex; 
+  flex-direction: row;
+  font-size: 1rem;
+  padding: 15px;
+  align-self:center ;
+  width: 50%;
+ justify-content: space-between
+}
+.priceCards{
+
+  text-align: start;
+  border: 1px solid white;
+  padding: 10px;
+  box-shadow:5px 5px 10px rgb(170, 218, 240);
+  font-size: 1rem;
+
+
+
+}
